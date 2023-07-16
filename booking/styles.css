@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: url(images/pic-8.png);
+  background-size: 100%;
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  color: whitesmoke;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+}
+
+
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+  margin-bottom: 10px;
+}
+form input {
+  border: 0;
+  outline: 0;
+  padding: 1em;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  font-family: "", sans-serif;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+
+form input:focus {
+  -moz-box-shadow: 0 0px 2px #02d3f8 !important;
+  -webkit-box-shadow: 0 0px 2px #02d3f8 !important;
+  box-shadow: 0 0px 2px #02d3f8 !important;
+}
+form #input-submit {
+  color: black;
+  background: whitesmoke;
+  cursor: pointer;
+}
+
+form #input-submit:hover {
+  -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+  box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
+}
+
+@media (max-width: 480px) {
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 30px;
+  color: whitesmoke;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+}
+
+
+table{
+  margin-bottom: 50px;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+  max-width: 800px;
+}
+
+.styled-table thead tr {
+  background-color: whitesmoke;
+  color: black;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 20px 25px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid whitesmoke;
+}
+
+tbody tr:hover {
+  font-weight: bold;
+  background-color: #dddddd;
+}
+tbody tr {
+  font-weight: bold;
+  background-color: #dddddd;
+}
+
+footer{
+  text-align: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100px;
+  position: flex;
+  color: white;
+  margin-top: 150px;
+  font-weight: lighter;
+  padding-top: 40px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-top: solid 2px white;
+
+}
+
+
+.search-bar {
+  width: 20%;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.search-bar input {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  border: solid gray 1px;
+  border-radius: 18px;
+  outline: none;
+}
+
+.search-ico {
+  position: absolute;
+  left: 10px;
+}
